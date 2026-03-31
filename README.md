@@ -141,3 +141,29 @@ Error rate: 0.1532
 Accuracy: 0.8468
 
 
+
+
+
+
+## Dataset Setup
+
+This project uses the **MNIST handwritten digits dataset**.
+
+Download the following four files and place them inside a local `data/` folder:
+
+- `train-images.idx3-ubyte`
+- `train-labels.idx1-ubyte`
+- `t10k-images.idx3-ubyte`
+- `t10k-labels.idx1-ubyte`
+
+Your folder structure should look like this:
+
+```text
+mnist-naive-bayes/
+│── data/
+│   ├── train-images.idx3-ubyte
+│   ├── train-labels.idx1-ubyte
+│   ├── t10k-images.idx1-ubyte
+│   └── t10k-labels.idx1-ubyte
+│── main.py
+│── README.md
